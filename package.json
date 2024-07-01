@@ -1,0 +1,31 @@
+{
+    "name": "json-i18n-merge",
+    "version": "2.0.2",
+    "author": "pavelv",
+    "description": "merge json i18n files by rules",
+    "homepage": "https://github.com/pvilutis/json-i18n-merge",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:pvilutis/json-i18n-merge.git"
+    },
+    "bugs": {
+        "url": "https://github.com/pvilutis/json-i18n-merge/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=12"
+    },
+    "main": "./merge.js",
+    "bin": {
+        "json-i18n-merge": "./merge.js"
+    },
+    "preferGlobal": true,
+    "files": [
+        "bin"
+    ],
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "yargs": "^17.7.2"
+    },
+    "keywords": []
+}
